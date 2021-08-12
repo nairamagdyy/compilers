@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621974176 source:c:\users\dell\desktop\hjk\main.cpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+

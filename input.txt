@@ -1,0 +1,52 @@
+{ Sample program
+  in TINY language
+  compute factorial
+}
+
+{check correctness of using absolute difference}
+read x; {input an integer}
+read y; {input an integer}
+read z; {input an integer}
+read i; {input an integer}
+read j; {input an integer}
+m := x&y-z;
+write m ;
+m := x&y*z;
+write m ;
+m := x&y+z;
+write m ;
+m := x&(i+y+z);
+write m ;
+m := x&y/z;
+write m ;
+m := x&y&i-z;
+write m ;
+m := (x&y)/z;
+write m;
+m := (i&y)+z-j;
+write m;
+m := (x&y)^z;
+write m;
+m := x&y^z;
+write m;
+m := (x^z)&(y^z);
+write m;
+m := i^z+x&y;
+write m;
+m := x*z&y/z;
+write m;
+m := x/y^z&j;
+write m;
+m := i+j*(z&y);
+write m;
+m := x^y^j^(z&i);
+write m;
+m := (y*x)&i&z;
+write m;
+m :=x&i/y&z;
+write m;
+m := x&i^y&z;
+write m;
+m := i+x-y&z*j;
+write m
+end
